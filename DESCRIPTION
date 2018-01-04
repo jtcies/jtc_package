@@ -2,8 +2,8 @@ Package: pynr
 Type: Package
 Title: PYN Functions and Themes
 Version: 0.1.0
-Author: Joseph Ciesielski
-Maintainer: Joseph Ciesielski (jciesielski@pyninc.org)
+Authors@R: person("Joseph", "Ciesielski", email = "jciesielski@pyninc.org",
+                  role = c("aut", "cre"))
 Description: Gvies comm
 License: N/A
 Encoding: UTF-8
