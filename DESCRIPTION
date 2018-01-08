@@ -8,4 +8,4 @@ Description: Gvies comm
 License: N/A
 Encoding: UTF-8
 LazyData: true
-Imports: ggplot2
+Imports: ggplot2, extrafont, extrafontdb
