@@ -2,13 +2,16 @@
 #'
 #' A minimal theme for most charts that uses PYN's fonts
 #'
+#' @param background plot panel background; options are "blank", "light", 
+#' or "dark"
+#' @return a theme object
 
 theme_pyn<- function(base_family = "Century Gothic",
-                     base_size = 12,
+                     base_size = 14,
                      axis.title.y = element_text(hjust = 1, vjust = 2),
                      axis.title.x = element_text(hjust = 1),
-                     plot.title = element_text(hjust = 0, size = 18),
-                     plot.subtitle = element_text(hjust = 0, size = 13),
+                     plot.title = element_text(hjust = 0, size = 20),
+                     plot.subtitle = element_text(hjust = 0, size = 16),
                      legend.position = "right",
                      background = "blank") {
 
