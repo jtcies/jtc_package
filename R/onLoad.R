@@ -1,5 +1,6 @@
-.onload <- function(libname, pkgname) {
+.onLoad <- function(libname, pkgname) {
   
-  extrafont::loadfonts(quiet = TRUE)
+  library(extrafont)
+  loadfonts(quiet = TRUE)
 
 }
