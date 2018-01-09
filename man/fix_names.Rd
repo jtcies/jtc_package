@@ -6,6 +6,9 @@
 \usage{
 fix_names(df)
 }
+\value{
+a data frame with formatted column names
+}
 \description{
 Changes the column names of a data frame, removing any non-alphanumeric
 characters and changing them to an underscore
