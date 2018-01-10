@@ -7,7 +7,7 @@
 fix_names <- function(df) {
   
   names(df) <- tolower(names(df))
-  names(df) <- string::str_replace_all(names(df), "(?![A-z0-9]).", "_")
+  names(df) <- stringr::str_replace_all(names(df), "(?![A-z0-9]).", "_")
   
   df
   
