@@ -4,13 +4,14 @@
 \alias{color_jtc}
 \title{Add PYN colors to a chart}
 \usage{
-color_jtc(type = "fill", scale = "jtc", rev = FALSE)
+color_jtc(type = "fill", scale = "primary", rev = FALSE)
 }
 \arguments{
 \item{type}{"fill" for use with the fill aesthetic; 
-"color" for use with the color aesthetic}
+"color" for use with the color aesthetic,}
 
-\item{scale}{"jtc" (default)}
+\item{scale}{"primary" (default), "dark", "light", "greys", "blues", "oranges",
+"tans", "yellows"}
 
 \item{rev}{reverse the order of the colors; defaults to false}
 }
@@ -18,6 +19,6 @@ color_jtc(type = "fill", scale = "jtc", rev = FALSE)
 a manual scale object
 }
 \description{
-Theme has 8 colors. If you need more than that, you will need to set theme 
-directly using scale_*_manual(values = jtc_pal[[XX]])
+scales for dark, light, and primary have 5 colors, color scales have three shades;
+if more are needed, use scale_X_manual
 }

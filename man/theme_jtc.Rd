@@ -4,10 +4,10 @@
 \alias{theme_jtc}
 \title{PYN Theme}
 \usage{
-theme_jtc(base_family = "Open Sans", base_size = 14,
+theme_jtc(base_family = "franklin", base_size = 14,
   axis.title.y = element_text(hjust = 1, vjust = 2),
   axis.title.x = element_text(hjust = 1),
-  plot.title = element_text(hjust = 0, size = 20),
+  plot.title = element_text(hjust = 0, size = 20, face = "bold"),
   plot.subtitle = element_text(hjust = 0, size = 16),
   legend.position = "right", background = "blank")
 }

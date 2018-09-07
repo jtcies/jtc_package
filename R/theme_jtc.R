@@ -6,11 +6,11 @@
 #' or "dark"
 #' @return a theme object
 
-theme_jtc<- function(base_family = "Open Sans",
+theme_jtc<- function(base_family = "franklin",
                      base_size = 14,
                      axis.title.y = element_text(hjust = 1, vjust = 2),
                      axis.title.x = element_text(hjust = 1),
-                     plot.title = element_text(hjust = 0, size = 20),
+                     plot.title = element_text(hjust = 0, size = 20, face = "bold"),
                      plot.subtitle = element_text(hjust = 0, size = 16),
                      legend.position = "right",
                      background = "blank") {
@@ -24,7 +24,7 @@ theme_jtc<- function(base_family = "Open Sans",
     axis.title.x = axis.title.x,
     plot.title = plot.title,
     plot.subtitle = plot.subtitle,
-    legend.position = legend.position
+    legend.position = legend.position,
   )
 
   if (background == "light") {
@@ -32,7 +32,7 @@ theme_jtc<- function(base_family = "Open Sans",
     ret <- ret + theme(panel.background = element_rect(fill = "#ececec",
                                                        color = "#ececec"),
                        panel.grid.major = element_line(color = "#888888",
-                                                       linetype = 2),
+                                                       linetype = 3),
                        axis.line = element_line(color = "#4f4f4f"))
 
   } else if (background == "dark") {
