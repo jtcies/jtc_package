@@ -1,12 +1,12 @@
-Package: pynr
+Package: jtcr
 Type: Package
-Title: PYN Functions and Themes
+Title: Personal package for themes, etc.
 Version: 0.1.0
-Authors@R: person("Joseph", "Ciesielski", email = "jciesielski@pyninc.org",
+Authors@R: person("Joseph", "Ciesielski", email = "jtcies@gmail.com",
                   role = c("aut", "cre"))
 Description: Gvies comm
 License: N/A
 Encoding: UTF-8
 LazyData: true
 Imports: ggplot2, extrafont, extrafontdb, stringr
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
