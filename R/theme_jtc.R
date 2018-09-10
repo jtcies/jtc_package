@@ -8,6 +8,7 @@
 
 theme_jtc<- function(base_family = "franklin",
                      base_size = 14,
+                     base_color = "#4f4f4f",
                      axis.title.y = element_text(hjust = 1, vjust = 2, face = "bold"),
                      axis.title.x = element_text(hjust = 1, face = "bold"),
                      plot.title = element_text(hjust = 0, size = 20, face = "bold"),
@@ -19,7 +20,8 @@ theme_jtc<- function(base_family = "franklin",
 
   ret <- ret + ggplot2::theme(
     text = element_text(family = base_family,
-                        size = base_size),
+                        size = base_size,
+                        color = base_color),
     axis.title.y = axis.title.y,
     axis.title.x = axis.title.x,
     plot.title = plot.title,
