@@ -8,8 +8,8 @@
 
 theme_jtc<- function(base_family = "franklin",
                      base_size = 14,
-                     axis.title.y = element_text(hjust = 1, vjust = 2),
-                     axis.title.x = element_text(hjust = 1),
+                     axis.title.y = element_text(hjust = 1, vjust = 2, face = "bold"),
+                     axis.title.x = element_text(hjust = 1, face = "bold"),
                      plot.title = element_text(hjust = 0, size = 20, face = "bold"),
                      plot.subtitle = element_text(hjust = 0, size = 16),
                      legend.position = "right",
