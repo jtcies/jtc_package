@@ -5,10 +5,10 @@
 \title{PYN Theme}
 \usage{
 theme_jtc(base_family = "franklin", base_size = 14,
-  axis.title.y = element_text(hjust = 1, vjust = 2),
-  axis.title.x = element_text(hjust = 1),
-  plot.title = element_text(hjust = 0, size = 20, face = "bold"),
-  plot.subtitle = element_text(hjust = 0, size = 16),
+  base_color = "#4f4f4f", axis.title.y = element_text(hjust = 1, vjust
+  = 2, face = "bold"), axis.title.x = element_text(hjust = 1, face =
+  "bold"), plot.title = element_text(hjust = 0, size = 20, face =
+  "bold"), plot.subtitle = element_text(hjust = 0, size = 16),
   legend.position = "right", background = "blank")
 }
 \arguments{
@@ -19,5 +19,5 @@ or "dark"}
 a theme object
 }
 \description{
-A minimal theme for most charts that uses PYN's fonts
+A minimal theme for most charts that uses Libre Franklin font
 }

@@ -9,3 +9,12 @@ na_to <- function(var, rep) {
   x
 
 }
+
+#' Total missing
+#'
+#' Determine missingness in each column
+#'@return a list with count of missing in each column
+
+total_missing <- function(dat) {
+  lapply(dat, function(x) sum(is.na(x)))
+}

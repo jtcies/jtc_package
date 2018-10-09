@@ -1,6 +1,6 @@
 #' PYN Theme
 #'
-#' A minimal theme for most charts that uses PYN's fonts
+#' A minimal theme for most charts that uses Libre Franklin font
 #'
 #' @param background plot panel background; options are "blank", "light", 
 #' or "dark"
