@@ -8,5 +8,5 @@ Description: Gvies comm
 License: N/A
 Encoding: UTF-8
 LazyData: true
-Imports: ggplot2, stringr, showtext
+Imports: ggplot2, stringr, showtext, dplyr
 RoxygenNote: 6.1.0
