@@ -1,4 +1,4 @@
-#' Add PYN colors to a chart
+#' Add JTC colors to a chart
 #' 
 #' scales for dark, light, and primary have 5 colors, color scales have three shades;
 #' if more are needed, use scale_X_manual

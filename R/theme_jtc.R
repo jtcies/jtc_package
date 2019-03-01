@@ -6,7 +6,7 @@
 #' or "dark"
 #' @return a theme object
 
-theme_jtc<- function(base_family = "franklin",
+theme_jtc<- function(base_family = "Libre Franklin",
                      base_size = 14,
                      base_color = "#4f4f4f",
                      axis.title.y = element_text(hjust = 1, vjust = 2, face = "bold"),
